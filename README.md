@@ -1,5 +1,5 @@
 Branches:
-"branch1" - adding bootstrap via reactstrap
+"branch-1" - adding bootstrap via reactstrap
 
 
 
