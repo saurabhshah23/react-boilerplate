@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import {
   Collapse,
   Navbar,
@@ -26,12 +27,12 @@ export default class NavigationBar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <Link to="/" className="navbar-brand">reactstrap</Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <Link to="/about" className="nav-link" >About</Link>
               </NavItem>
             </Nav>
           </Collapse>
