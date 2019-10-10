@@ -1,0 +1,14 @@
+@import '../../styles/vars';
+
+.about-page{
+    padding: 18px;
+    .about-head {
+        @extend %head-font;
+    }
+    .blue-text {
+        color: $blue;
+    }
+    .red-text {
+        color: $red;
+    }
+}

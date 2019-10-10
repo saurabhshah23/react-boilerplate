@@ -1,0 +1,11 @@
+@import './_vars.scss';
+
+body{
+    // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    // font-size: 16px;
+    @extend %body-font;
+}
+
+
+
+
