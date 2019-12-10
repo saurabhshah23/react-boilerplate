@@ -1,7 +1,10 @@
 Branches:
-"branch-1" - adding bootstrap via reactstrap
+"branch-1" includes: react + redux + router + reactstrap (bootstrap)
+
 This project includes below ingredients:
 - React js boiler plate from create-react-app cli.
+- Bootstrap UI via reactstrap
+- Router
 - Redux added with 2 reducers and combine reducer method.
 - Scalable architecture created for boilerplate to be used for large real-time apps.
 
