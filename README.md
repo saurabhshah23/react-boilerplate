@@ -1,7 +1,7 @@
 BRANCHES:
 
 "branch-2" includes:
-scss/sass
+scss/sass (SASS is default supported by this version of react)
 ----------------------------
 "branch-1" includes:
 react + redux
