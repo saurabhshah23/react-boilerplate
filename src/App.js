@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './styles/App.scss'
 
 //import a single comps file with all definitions of the comps defined within it, instead of individual comps.
 import { Age, AgeRedux, Home, About, NavigationBar } from './components/demo'
