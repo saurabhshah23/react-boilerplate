@@ -1,5 +1,8 @@
 BRANCHES:
 
+"branch-3" includes:
+...
+----------------------------
 "branch-2" includes:
 scss/sass
 ----------------------------
